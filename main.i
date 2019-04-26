@@ -2,7 +2,13 @@
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "main.c"
-# 14 "main.c"
+
+
+
+
+
+
+
 # 1 "/Users/hyunjoochoi/Desktop/cs2261/devkitARM 2/arm-none-eabi/include/stdlib.h" 1 3
 # 10 "/Users/hyunjoochoi/Desktop/cs2261/devkitARM 2/arm-none-eabi/include/stdlib.h" 3
 # 1 "/Users/hyunjoochoi/Desktop/cs2261/devkitARM 2/arm-none-eabi/include/machine/ieeefp.h" 1 3
@@ -796,7 +802,7 @@ extern long double _strtold_r (struct _reent *, const char *restrict, char **res
 extern long double strtold (const char *restrict, char **restrict);
 # 333 "/Users/hyunjoochoi/Desktop/cs2261/devkitARM 2/arm-none-eabi/include/stdlib.h" 3
 
-# 15 "main.c" 2
+# 9 "main.c" 2
 # 1 "/Users/hyunjoochoi/Desktop/cs2261/devkitARM 2/arm-none-eabi/include/stdio.h" 1 3
 # 36 "/Users/hyunjoochoi/Desktop/cs2261/devkitARM 2/arm-none-eabi/include/stdio.h" 3
 # 1 "/Users/hyunjoochoi/Desktop/cs2261/devkitARM 2/lib/gcc/arm-none-eabi/7.1.0/include/stddef.h" 1 3 4
@@ -1189,7 +1195,7 @@ static __inline__ int __sputc_r(struct _reent *_ptr, int _c, FILE *_p) {
 }
 # 767 "/Users/hyunjoochoi/Desktop/cs2261/devkitARM 2/arm-none-eabi/include/stdio.h" 3
 
-# 16 "main.c" 2
+# 10 "main.c" 2
 # 1 "myLib.h" 1
 
 
@@ -1274,17 +1280,17 @@ typedef struct{
     int priority;
     int vBlankCount;
 } SOUND;
-# 17 "main.c" 2
+# 11 "main.c" 2
 # 1 "startBG.h" 1
 # 22 "startBG.h"
-extern const unsigned short startBGTiles[3776];
+extern const unsigned short startBGTiles[3216];
 
 
 extern const unsigned short startBGMap[1024];
 
 
 extern const unsigned short startBGPal[256];
-# 18 "main.c" 2
+# 12 "main.c" 2
 # 1 "winBG.h" 1
 # 22 "winBG.h"
 extern const unsigned short winBGTiles[2096];
@@ -1294,7 +1300,7 @@ extern const unsigned short winBGMap[1024];
 
 
 extern const unsigned short winBGPal[256];
-# 19 "main.c" 2
+# 13 "main.c" 2
 # 1 "loseBG.h" 1
 # 22 "loseBG.h"
 extern const unsigned short loseBGTiles[1808];
@@ -1304,7 +1310,7 @@ extern const unsigned short loseBGMap[1024];
 
 
 extern const unsigned short loseBGPal[16];
-# 20 "main.c" 2
+# 14 "main.c" 2
 # 1 "pauseBG.h" 1
 # 22 "pauseBG.h"
 extern const unsigned short pauseBGTiles[2848];
@@ -1314,7 +1320,7 @@ extern const unsigned short pauseBGMap[1024];
 
 
 extern const unsigned short pauseBGPal[16];
-# 21 "main.c" 2
+# 15 "main.c" 2
 # 1 "gameBG.h" 1
 # 22 "gameBG.h"
 extern const unsigned short gameBGTiles[3248];
@@ -1324,7 +1330,7 @@ extern const unsigned short gameBGMap[1024];
 
 
 extern const unsigned short gameBGPal[256];
-# 22 "main.c" 2
+# 16 "main.c" 2
 # 1 "game.h" 1
 
 typedef struct {
@@ -1441,7 +1447,7 @@ void animatePlayer();
 void cheatToggle();
 int getCheat();
 void resetCheat();
-# 23 "main.c" 2
+# 17 "main.c" 2
 # 1 "game2.h" 1
 
 typedef struct {
@@ -1563,7 +1569,7 @@ void animatePlayer2();
 void cheatToggle2();
 int getCheat2();
 void resetCheat2();
-# 24 "main.c" 2
+# 18 "main.c" 2
 # 1 "game3.h" 1
 
 typedef struct {
@@ -1681,24 +1687,24 @@ void animatePlayer3();
 void cheatToggle3();
 int getCheat3();
 void resetCheat3();
-# 25 "main.c" 2
+# 19 "main.c" 2
 # 1 "instructionsBG.h" 1
 # 22 "instructionsBG.h"
-extern const unsigned short instructionsBGTiles[5504];
+extern const unsigned short instructionsBGTiles[5472];
 
 
 extern const unsigned short instructionsBGMap[1024];
 
 
 extern const unsigned short instructionsBGPal[256];
-# 26 "main.c" 2
+# 20 "main.c" 2
 # 1 "spritesheet.h" 1
 # 21 "spritesheet.h"
 extern const unsigned short spritesheetTiles[16384];
 
 
 extern const unsigned short spritesheetPal[256];
-# 27 "main.c" 2
+# 21 "main.c" 2
 # 1 "room1.h" 1
 # 22 "room1.h"
 extern const unsigned short room1Tiles[11712];
@@ -1708,7 +1714,7 @@ extern const unsigned short room1Map[1024];
 
 
 extern const unsigned short room1Pal[256];
-# 28 "main.c" 2
+# 22 "main.c" 2
 # 1 "basement.h" 1
 # 22 "basement.h"
 extern const unsigned short basementTiles[18048];
@@ -1718,7 +1724,7 @@ extern const unsigned short basementMap[1024];
 
 
 extern const unsigned short basementPal[256];
-# 29 "main.c" 2
+# 23 "main.c" 2
 # 1 "hallway.h" 1
 # 22 "hallway.h"
 extern const unsigned short hallwayTiles[5472];
@@ -1728,7 +1734,7 @@ extern const unsigned short hallwayMap[1024];
 
 
 extern const unsigned short hallwayPal[256];
-# 30 "main.c" 2
+# 24 "main.c" 2
 # 1 "sound.h" 1
 SOUND soundA;
 SOUND soundB;
@@ -1743,27 +1749,27 @@ void interruptHandler();
 void pauseSound();
 void unpauseSound();
 void stopSound();
-# 31 "main.c" 2
+# 25 "main.c" 2
 # 1 "thecarnival.h" 1
 # 20 "thecarnival.h"
 extern const unsigned char thecarnival[1571328];
-# 32 "main.c" 2
+# 26 "main.c" 2
 # 1 "hit.h" 1
 # 20 "hit.h"
 extern const unsigned char hit[5449];
-# 33 "main.c" 2
+# 27 "main.c" 2
 # 1 "shoot.h" 1
 # 20 "shoot.h"
 extern const unsigned char shoot[5513];
-# 34 "main.c" 2
+# 28 "main.c" 2
 # 1 "playerhit.h" 1
 # 20 "playerhit.h"
 extern const unsigned char playerhit[7451];
-# 35 "main.c" 2
+# 29 "main.c" 2
 # 1 "cheer.h" 1
 # 20 "cheer.h"
 extern const unsigned char cheer[59490];
-# 36 "main.c" 2
+# 30 "main.c" 2
 # 1 "sky.h" 1
 # 22 "sky.h"
 extern const unsigned short skyTiles[7712];
@@ -1773,7 +1779,7 @@ extern const unsigned short skyMap[1024];
 
 
 extern const unsigned short skyPal[256];
-# 37 "main.c" 2
+# 31 "main.c" 2
 
 
 OBJ_ATTR shadowOAM[128];
@@ -1910,7 +1916,7 @@ void goToStart() {
     resetCheat3();
 
     DMANow(3, startBGPal, ((unsigned short *)0x5000000), 512/2);
-    DMANow(3, startBGTiles, &((charblock *)0x6000000)[0], 7552/2);
+    DMANow(3, startBGTiles, &((charblock *)0x6000000)[0], 6432/2);
     DMANow(3, startBGMap, &((screenblock *)0x6000000)[20], 2048/2);
     (*(volatile unsigned short*)0x4000008) = (0<<14) | ((0)<<2) | ((20)<<8);
     (*(unsigned short *)0x4000000) = (0<<0) | (1<<8);
@@ -1944,7 +1950,7 @@ void start() {
 void goToInstructions() {
 
  DMANow(3, instructionsBGPal, ((unsigned short *)0x5000000), 512/2);
-    DMANow(3, instructionsBGTiles, &((charblock *)0x6000000)[0], 11008/2);
+    DMANow(3, instructionsBGTiles, &((charblock *)0x6000000)[0], 10944/2);
     DMANow(3, instructionsBGMap, &((screenblock *)0x6000000)[26], 2048/2);
     (*(volatile unsigned short*)0x4000008) = (0<<14) | ((0)<<2) | ((26)<<8);
     (*(unsigned short *)0x4000000) = (0<<0) | (1<<8);
